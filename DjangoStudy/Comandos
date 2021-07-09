@@ -1,4 +1,20 @@
-Criar ambiente virtual:
+(Windows)Criar ambiente virtual:
+
+python -m venv nomedavenv
+
+Ativar ambiente virtual:
+
+myvenv\Scripts\activate
+
+Caso ocorra o erro de permissão para o powershell:
+
+-Abra outro powershell com o modo administrador e execute esse comando:
+  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+
+(myvenv) ~$ python -m pip install --upgrade pip
+
+===================================================================================================================================================================================
+(LINUX)Criar ambiente virtual:
 
 python3 -m venv nome
 
